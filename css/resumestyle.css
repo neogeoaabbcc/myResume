@@ -1,0 +1,295 @@
+/*boostastrap图标连接*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+/* 主要语法 */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #5d5a5a;
+}
+#allbox {
+  position: relative;
+  top: 200px;
+  left: 50%;
+  margin-left: -450px;
+  width: 900px;
+  height: 1200px;
+}
+#allbox img {
+  position: absolute;
+  top: -184px;
+  left: -30px;
+}
+#allbox .box {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 70px;
+  webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#allbox .box .circle {
+  position: relative;
+  display: inline-block;
+  left: -62px;
+  top: 158px;
+  width: 38px;
+  height: 38px;
+  background-color: #5d5a5a;
+  border-radius: 50%;
+}
+#allbox .box .icon {
+  position: relative;
+  display: inline-block;
+  left: 110px;
+  top: 66px;
+  text-align: center;
+  border-radius: 30%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#allbox .box .icon span {
+  display: inline-block;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+}
+#allbox .box .article1 {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  height: 200px;
+  width: 440px;
+}
+#allbox .box .article1 span {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+#allbox .box .article1 span i {
+  display: inline-block;
+  font-size: 40px;
+  width: 90px;
+  height: 50px;
+  color: red;
+}
+#allbox .box .article1 p {
+  font-size: 14px;
+  color: #dcd5d5;
+  text-indent: 10px;
+}
+#allbox .box .article2 {
+  position: absolute;
+  top: 20px;
+  left: 222px;
+  height: 200px;
+  width: 600px;
+}
+#allbox .box .article2 span {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  writing-mode: tb-rl;
+  color: #000;
+}
+#allbox .box .article2 span i {
+  display: inline-block;
+  position: absolute;
+  left: 56px;
+  font-size: 25px;
+  width: 28px;
+  height: 50px;
+  color: #fff;
+}
+#allbox .box .article2 ul {
+  position: relative;
+  top: -54px;
+  left: 118px;
+}
+#allbox .box .article2 ul li {
+  line-height: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#allbox .box .article2 ul li p {
+  text-indent: -10px;
+  font-size: 14px;
+  color: #000;
+}
+#allbox .box .article3 {
+  position: relative;
+  top: -54px;
+  left: 250px;
+  height: 198px;
+  width: 574px;
+}
+#allbox .box .article3 p {
+  font-size: 14px;
+  color: #dcd5d5;
+  line-height: 11px;
+}
+#allbox .box .article4 {
+  position: relative;
+  top: -188px;
+  left: 220px;
+  height: 122px;
+  width: 516px;
+}
+#allbox .box .article4 p {
+  display: inline-block;
+  top: 20px;
+  text-indent: 68px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+#allbox .box .article4 .shape {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  background-color: #046E77;
+}
+#allbox .box .article4 .eight {
+  left: 58px;
+  width: 200px;
+}
+#allbox .box .article4 .six {
+  left: 10px;
+  width: 152px;
+}
+#allbox .top {
+  margin-left: 40px;
+  z-index: 1;
+  background-color: #1f1a17;
+}
+#allbox .second {
+  margin-right: 40px;
+  z-index: 2;
+  background-color: #c4bf57;
+  top: 220px;
+}
+#allbox .middle {
+  margin-left: 40px;
+  z-index: 3;
+  background-color: #c5244d;
+  top: 440px;
+}
+#allbox .middle h3 {
+  position: relative;
+  display: inline-block;
+  top: -14px;
+  left: -40px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+#allbox .middle h3 span {
+  display: inline-block;
+  width: 72px;
+  height: 40px;
+  font-size: 35px;
+  color: #f9cf25;
+}
+#allbox .h3 {
+  position: relative;
+  writing-mode: tb-rl;
+  font-weight: bold;
+  color: #fff;
+}
+#allbox .span {
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  margin-top: -20px;
+  width: 50px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+#allbox .middlenext {
+  margin-right: 40px;
+  z-index: 4;
+  background-color: #a36c96;
+  top: 660px;
+}
+#allbox .middlenext h3 {
+  position: relative;
+  writing-mode: tb-rl;
+  font-weight: bold;
+  color: #fff;
+  left: 780px;
+  top: -64px;
+}
+#allbox .middlenext h3 span {
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  margin-top: -20px;
+  width: 50px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+#allbox .footer {
+  margin-left: 40px;
+  z-index: 5;
+  background-color: #3d6599;
+  top: 880px;
+}
+#allbox .footer h3 {
+  position: relative;
+  writing-mode: tb-rl;
+  font-weight: bold;
+  left: 14px;
+  top: -60px;
+  color: #fff;
+}
+#allbox .footer h3 span {
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  margin-top: -20px;
+  width: 50px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #bd7427;
+}
+#allbox .footer .article5 {
+  position: relative;
+  top: -170px;
+  left: 252px;
+  height: 100px;
+  width: 574px;
+}
+#allbox .footer .article5 p {
+  font-size: 18px;
+  color: #dcd5d5;
+  line-height: 25px;
+}
+.aside {
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  left: 26px;
+}
+.aside span {
+  display: inline-block;
+  color: #dcd5d5;
+  font-size: 64px;
+}
